@@ -105,44 +105,42 @@ body {
     box-sizing: border-box;
 }
 .cs-button-solid {
-  font-size: 1rem;
-        /* 46px - 56px */
-        line-height: clamp(2.875rem, 5.5vw, 3.5rem);
-        text-decoration: none;
-        font-weight: 700;
-        text-align: center;
-        margin: 0;
-        color: #1a1a1a;
-        min-width: 9.375rem;
-        padding: 0 1.5rem;
-        background-color: var(--bodyTextColorWhite);
-        border-radius: 0.25rem;
-        display: inline-block;
-        position: relative;
-        z-index: 1;
-        /* prevents padding from adding to the width */
-        box-sizing: border-box;
-        transition: color 0.3s;
-}
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    overflow: hidden;
+    margin: 0;
+    color: #fff;
+    padding: 0 3rem;
+    border-radius: 1.875rem;
+    background-color: var(--primary);
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    transition: color .3s;
+    border: 0;
+  }
 .cs-button-solid:before {
-  content: "";
-        position: absolute;
-        height: 100%;
-        width: 0%;
-        background: #000;
-        opacity: 1;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        border-radius: 0.25rem;
-        transition: width 0.3s;
-}
-.cs-button-solid:hover {
-  color: #fff;
-}
+    content: '';
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 0%;
+    background: var(--secondary);
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width .3s;
+  }
 .cs-button-solid:hover:before {
-  width: 100%;
-}
+    width: 100%;
+  }
+  .cs-button-solid:hover {
+    cursor: pointer;
+  }
 .cs-topper {
     font-size: var(--topperFontSize);
     line-height: 1.2em;

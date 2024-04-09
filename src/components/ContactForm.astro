@@ -2,7 +2,7 @@
 <!--                   Contact                    -->
 <!-- ============================================ -->
 
-<section id="contact-1525">
+<section id="contact">
     <div class="cs-container">
         <div class="cs-content">
             <span class="cs-topper">Get In Touch</span>
@@ -59,12 +59,12 @@
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-  #contact-1525 {
+  #contact {
     padding: var(--sectionPadding);
     position: relative;
     z-index: 1;
   }
-  #contact-1525 .cs-container {
+  #contact .cs-container {
     width: 100%;
     max-width: 80rem;
     margin: auto;
@@ -75,7 +75,7 @@
     /* 48px - 64px */
     gap: clamp(3rem, 6vw, 4rem);
   }
-  #contact-1525 .cs-content {
+  #contact .cs-content {
     /* set text aling to left if content needs to be left aligned */
     text-align: center;
     width: 100%;
@@ -84,17 +84,17 @@
     /* centers content horizontally, set to flex-start to left align */
     align-items: center;
   }
-  #contact-1525 .cs-title {
+  #contact .cs-title {
     margin: 0;
   }
-  #contact-1525 .cs-form {
+  #contact .cs-form {
     width: 100%;
     max-width: 52.875rem;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 0.75rem;
   }
-  #contact-1525 .cs-label {
+  #contact .cs-label {
     /* 14px - 16px */
     font-size: clamp(0.875rem, 1.5vw, 1rem);
     width: 100%;
@@ -106,8 +106,8 @@
     grid-column: span 12;
     gap: 0.25rem;
   }
-  #contact-1525 .cs-input,
-  #contact-1525 .cs-select {
+  #contact .cs-input,
+  #contact .cs-select {
     font-size: 1rem;
     width: 100%;
     height: 3.5rem;
@@ -121,20 +121,20 @@
     box-sizing: border-box;
     transition: border-color 0.3s;
   }
-  #contact-1525 .cs-input:hover,
-  #contact-1525 .cs-select:hover {
+  #contact .cs-input:hover,
+  #contact .cs-select:hover {
     border-color: var(--secondary);
   }
-  #contact-1525 .cs-input:focus,
-  #contact-1525 .cs-select:focus {
+  #contact .cs-input:focus,
+  #contact .cs-select:focus {
     outline: 1px solid var(--secondary);
   }
-  #contact-1525 .cs-input::placeholder,
-  #contact-1525 .cs-select::placeholder {
+  #contact .cs-input::placeholder,
+  #contact .cs-select::placeholder {
     color: #7d799c;
     opacity: 0.6;
   }
-  #contact-1525 .cs-textarea {
+  #contact .cs-textarea {
     /* 120px - 192px */
     min-height: clamp(7.5rem, 28vw, 12rem);
     padding-top: 1.5rem;
@@ -142,7 +142,7 @@
     margin-bottom: clamp(3rem, 6vw, 4rem);
     font-family: inherit;
   }
-  #contact-1525 .cs-button-solid {
+  #contact .cs-button-solid {
     font-size: 1rem;
     /* 46px - 56px */
     line-height: clamp(2.875rem, 3.5vw, 3.5rem);
@@ -162,12 +162,12 @@
     /* prevents padding from adding to the width */
     box-sizing: border-box;
   }
-  #contact-1525 .cs-button-solid:before {
+  #contact .cs-button-solid:before {
     content: "";
     position: absolute;
     height: 100%;
     width: 0%;
-    background: #000;
+    background: var(--secondary);
     opacity: 1;
     top: 0;
     left: 0;
@@ -175,20 +175,20 @@
     border-radius: 0.25rem;
     transition: width 0.3s;
   }
-  #contact-1525 .cs-button-solid:hover:before {
+  #contact .cs-button-solid:hover:before {
     width: 100%;
   }
-  #contact-1525 .cs-submit {
+  #contact .cs-submit {
     text-transform: uppercase;
     min-width: 13.375rem;
     margin-top: -0.75rem;
     border: none;
     grid-column: span 12;
   }
-  #contact-1525 .cs-submit:hover {
+  #contact .cs-submit:hover {
     cursor: pointer;
   }
-  #contact-1525 .cs-floater1 {
+  #contact .cs-floater1 {
     /* 157px - 312px */
     width: clamp(9.8125rem, 20vw, 19.5rem);
     height: auto;
@@ -198,7 +198,7 @@
     z-index: -1;
     transform: rotate(-10deg);
   }
-  #contact-1525 .cs-floater2 {
+  #contact .cs-floater2 {
     /* 72px - 200px */
     width: clamp(4.5rem, 15vw, 12.5rem);
     height: auto;
@@ -208,7 +208,7 @@
     z-index: -1;
     transform: rotate(-10deg);
   }
-  #contact-1525 .cs-background {
+  #contact .cs-background {
     width: 100%;
     height: 100%;
     display: block;
@@ -217,7 +217,7 @@
     left: 0;
     z-index: -2;
   }
-  #contact-1525 .cs-background img {
+  #contact .cs-background img {
     position: absolute;
     top: 0;
     left: 0;
@@ -229,20 +229,20 @@
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
-  #contact-1525 {
+  #contact {
     padding: var(--sectionPadding);
     position: relative;
   }
-  #contact-1525 .cs-label {
+  #contact .cs-label {
     grid-column: span 6;
   }
-  #contact-1525 .cs-message {
+  #contact .cs-message {
     grid-column: span 12;
   }
 }
 /* Large Desktop - 1300px */
 @media only screen and (min-width: 81.25rem) {
-  #contact-1525 .cs-floater1 {
+  #contact .cs-floater1 {
     top: 11.25rem;
   }
 }
