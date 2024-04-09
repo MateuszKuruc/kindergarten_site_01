@@ -2,7 +2,7 @@
 <!--                  Services                    -->
 <!-- ============================================ -->
 
-<section id="services-1499">
+<section id="services">
     <div class="cs-container">
         <div class="cs-content">
             <span class="cs-topper">Our services</span>
@@ -35,7 +35,7 @@
                     <p class="cs-item-text">
                         Stitch day care mission is to provide affordable high-quality early education and childcare.
                     </p>
-                    <a href="" class="cs-link">
+                    <a href="#contact" class="cs-link">
                         Enroll Now
                         <img class="cs-arrow" loading="lazy" decoding="async"
                             src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/green-arrow.svg" alt="icon"
@@ -65,7 +65,7 @@
                     <p class="cs-item-text">
                         Stitch day care mission is to provide affordable high-quality early education and childcare.
                     </p>
-                    <a href="" class="cs-link">
+                    <a href="#contact" class="cs-link">
                         Enroll Now
                         <img class="cs-arrow" loading="lazy" decoding="async"
                             src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/green-arrow.svg" alt="icon"
@@ -95,7 +95,7 @@
                     <p class="cs-item-text">
                         Stitch day care mission is to provide affordable high-quality early education and childcare.
                     </p>
-                    <a href="" class="cs-link">
+                    <a href="#contact" class="cs-link">
                         Enroll Now
                         <img class="cs-arrow" loading="lazy" decoding="async"
                             src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/green-arrow.svg" alt="icon"
@@ -168,14 +168,14 @@
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-  #services-1499 {
+  #services {
     padding: var(--sectionPadding);
     position: relative;
     z-index: 1;
     background-color: #fff;
     overflow: hidden;
   }
-  #services-1499 .cs-container {
+  #services .cs-container {
     width: 100%;
     /* changes to 1280px at desktop */
     max-width: 56.25rem;
@@ -188,7 +188,7 @@
     position: relative;
     z-index: 15;
   }
-  #services-1499 .cs-content {
+  #services .cs-content {
     display: flex;
     flex-direction: column;
     /* centers content horizontally, set to flex-start to left align */
@@ -197,10 +197,10 @@
     /* set text align to left if content needs to be left aligned */
     text-align: center;
   }
-  #services-1499 .cs-title {
+  #services .cs-title {
     max-width: 23ch;
   }
-  #services-1499 .cs-card-group {
+  #services .cs-card-group {
     margin: 0;
     width: 100%;
     padding: 0;
@@ -210,7 +210,7 @@
     /* 16px - 20px */
     gap: clamp(1rem, 2vw, 1.25rem);
   }
-  #services-1499 .cs-item {
+  #services .cs-item {
     text-align: center;
     list-style: none;
     max-width: 21.25rem;
@@ -229,20 +229,20 @@
     z-index: 1;
     transition: border-color 0.3s;
   }
-  #services-1499 .cs-item:hover {
+  #services .cs-item:hover {
     border-color: var(--secondary);
   }
-  #services-1499 .cs-item:hover .cs-picture img {
+  #services .cs-item:hover .cs-picture img {
     transform: scale(1.2);
   }
-  #services-1499 .cs-item:hover .cs-h3,
-  #services-1499 .cs-item:hover .cs-link {
+  #services .cs-item:hover .cs-h3,
+  #services .cs-item:hover .cs-link {
     color: var(--primary);
   }
-  #services-1499 .cs-item:hover .cs-arrow {
+  #services .cs-item:hover .cs-arrow {
     filter: initial;
   }
-  #services-1499 .cs-image-group {
+  #services .cs-image-group {
     /* done in ems so we can use font size to scale it on desktop */
     width: 16.0625em;
     height: 12.5em;
@@ -251,7 +251,7 @@
     position: relative;
     z-index: 1;
   }
-  #services-1499 .cs-picture {
+  #services .cs-picture {
     position: relative;
     display: block;
     width: 100%;
@@ -259,7 +259,7 @@
     /* clips the image from overflowing parent on hover */
     overflow: hidden;
   }
-  #services-1499 .cs-picture img {
+  #services .cs-picture img {
     z-index: -1;
     position: absolute;
     top: 0;
@@ -269,7 +269,7 @@
     object-fit: cover;
     transition: transform 0.65s;
   }
-  #services-1499 .cs-mask {
+  #services .cs-mask {
     /* SVG Colors */
     --maskBorder: #e8e8e8;
     --maskBG: #fff;
@@ -279,11 +279,11 @@
     bottom: -1px;
     right: -1px;
   }
-  #services-1499 .cs-info {
+  #services .cs-info {
     display: flex;
     flex-direction: column;
   }
-  #services-1499 .cs-h3 {
+  #services .cs-h3 {
     /* 20px - 25px */
     font-size: clamp(1.25rem, 2.5vw, 1.5625rem);
     text-align: inherit;
@@ -297,7 +297,7 @@
     transition: background-color 0.3s;
     transition: color 0.3s;
   }
-  #services-1499 .cs-ages {
+  #services .cs-ages {
     font-size: 1rem;
     line-height: 1.2em;
     text-align: inherit;
@@ -305,7 +305,7 @@
     margin: 0 0 1rem 0;
     color: var(--secondary);
   }
-  #services-1499 .cs-item-text {
+  #services .cs-item-text {
     /* 14px - 16px */
     font-size: clamp(0.875rem, 1.5vw, 1rem);
     text-align: inherit;
@@ -316,7 +316,7 @@
     width: 100%;
     color: var(--bodyTextColor);
   }
-  #services-1499 .cs-link {
+  #services .cs-link {
     font-size: 1rem;
     text-decoration: none;
     text-align: inherit;
@@ -328,17 +328,17 @@
     align-items: center;
     transition: color 0.3s;
   }
-  #services-1499 .cs-link:hover .cs-arrow {
+  #services .cs-link:hover .cs-arrow {
     transform: translateX(0.25rem);
   }
-  #services-1499 .cs-arrow {
+  #services .cs-arrow {
     display: block;
     height: auto;
     width: 1.25rem;
     transition: filter 0.3s,
                 transform 0.3s;
   }
-  #services-1499 .cs-hills {
+  #services .cs-hills {
     /* hills Color */
     --hillBG: #F2FAF8;
     width: 130%;
@@ -350,7 +350,7 @@
     left: 50%;
     transform: translateX(-50%);
   }
-  #services-1499 .cs-wrapper {
+  #services .cs-wrapper {
     width: 134vw;
     max-width: 91.375rem;
     height: 50%;
@@ -362,35 +362,35 @@
     z-index: 2;
     transform: translateX(-50%);
   }
-  #services-1499 .cs-floater {
+  #services .cs-floater {
     position: absolute;
   }
-  #services-1499 .cs-floater1 {
+  #services .cs-floater1 {
     left: 0;
     top: -13.75rem;
   }
-  #services-1499 .cs-floater2 {
+  #services .cs-floater2 {
     bottom: -3.125rem;
     right: 0;
   }
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
-  #services-1499 .cs-container {
+  #services .cs-container {
     max-width: 80rem;
   }
-  #services-1499 .cs-card-group {
+  #services .cs-card-group {
     flex-direction: row;
     justify-content: center;
   }
-  #services-1499 .cs-image-group {
+  #services .cs-image-group {
     /* scaling it down so it all fits proportionally */
     font-size: min(1.2vw, 1em);
   }
-  #services-1499 .cs-wrapper {
+  #services .cs-wrapper {
     display: block;
   }
-  #services-1499 .cs-hills {
+  #services .cs-hills {
     top: 50%;
     bottom: 0;
   }
